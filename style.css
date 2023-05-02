@@ -1,0 +1,47 @@
+body{
+    margin:0;
+}
+header{
+    background-color:#0B1C51 ;
+    margin-bottom: 40px;
+}
+header h1{
+    color:white;
+    font-size: 52px;
+    text-align : center;
+    margin: 0;
+    padding-top: 20px
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    padding-left:0 
+}
+header nav li a{
+    margin:0 20px 0 0;
+    color:#fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header nav ul li:last-child a {
+   margin-right: 0;
+}
+@media all and (min-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    header h1{
+        font-size: 52px;
+        margin: 14px 0;
+        padding-top: 0;
+    }
+    header nav {
+        margin-top: 20px;
+    }
+}
